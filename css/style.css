@@ -21,13 +21,13 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Futura", sans-serif;
-  color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 .cd-title {

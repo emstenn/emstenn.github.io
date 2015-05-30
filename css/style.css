@@ -375,7 +375,7 @@ about
     z-index: 10;
     width: 250px;
     height: 420px;
-    background: none;
+    background: #555555;
     top: 50%;
     left: 50%;
     margin: -210px 0 0 -125px;
@@ -383,6 +383,12 @@ about
     border-radius: 4px;
     box-sizing: bor;der-box;
     z-index: 100
+}
+
+@media only screen and (min-width: 1170px) {
+  .about {
+    background: none;
+  }
 }
 
 .about img {

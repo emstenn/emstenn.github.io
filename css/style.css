@@ -358,36 +358,50 @@ particles.js
     border-radius: 4px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
-
-.panel-about {
-    font-family: 'Raleway', sans-serif;
-    position: fixed;
-    z-index: 1;
-    background: transparent;
-    top: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
-}
-
 
 /* -------------------------------- 
 
-particles.js 
+about
 
 -------------------------------- */
 
-.cd-bouncy-nav-trigger-about {
-  background: #000;
-  color: #ffffff;
-  padding: 3em 5em;
-  position: fixed;
+
+.about {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    height: 420px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    margin: -210px 0 0 -125px;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: bor;der-box;
+    z-index: 100
+}
+
+.about img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    color: #222;
+    margin-top: 20px;
+}
+
+.about h2 {
+    font-weight: 400;
+    font-size: .8em;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.3em;
 }

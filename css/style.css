@@ -374,18 +374,18 @@ about
     position: absolute;
     z-index: 10;
     width: 250px;
-    height: 420px;
-    background: #555555;
+    height: 450px;
+    background: #eee;
     top: 50%;
     left: 50%;
-    margin: -210px 0 0 -125px;
+    margin: -225px 0 0 -125px;
     padding: 20px;
     border-radius: 4px;
-    box-sizing: bor;der-box;
+    box-sizing: border-box;
     z-index: 100
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 500px) {
   .about {
     background: none;
   }
